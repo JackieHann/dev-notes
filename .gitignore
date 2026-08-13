@@ -1,0 +1,13 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# data + noise
+data/
+*.log
+*.csv
+*.tsv
+*.json
+!sample*.csv
