@@ -1,0 +1,17 @@
+[project]
+name = "dev-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jake", email = "jake.hanne@googlemail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+dev-notes = "dev_notes:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
